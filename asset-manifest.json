@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yonittsairi-react/static/css/main.162400b3.chunk.css",
+    "main.js": "/yonittsairi-react/static/js/main.bf8e10ad.chunk.js",
+    "main.js.map": "/yonittsairi-react/static/js/main.bf8e10ad.chunk.js.map",
+    "runtime-main.js": "/yonittsairi-react/static/js/runtime-main.2308eef7.js",
+    "runtime-main.js.map": "/yonittsairi-react/static/js/runtime-main.2308eef7.js.map",
+    "static/js/2.21a3c2df.chunk.js": "/yonittsairi-react/static/js/2.21a3c2df.chunk.js",
+    "static/js/2.21a3c2df.chunk.js.map": "/yonittsairi-react/static/js/2.21a3c2df.chunk.js.map",
+    "static/js/3.e21de61a.chunk.js": "/yonittsairi-react/static/js/3.e21de61a.chunk.js",
+    "static/js/3.e21de61a.chunk.js.map": "/yonittsairi-react/static/js/3.e21de61a.chunk.js.map",
+    "index.html": "/yonittsairi-react/index.html",
+    "static/css/main.162400b3.chunk.css.map": "/yonittsairi-react/static/css/main.162400b3.chunk.css.map",
+    "static/js/2.21a3c2df.chunk.js.LICENSE.txt": "/yonittsairi-react/static/js/2.21a3c2df.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/yonittsairi-react/static/media/Kufam-MediumItalic.2ecbc5a1.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2308eef7.js",
+    "static/js/2.21a3c2df.chunk.js",
+    "static/css/main.162400b3.chunk.css",
+    "static/js/main.bf8e10ad.chunk.js"
+  ]
+}
