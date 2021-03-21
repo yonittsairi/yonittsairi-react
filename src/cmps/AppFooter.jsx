@@ -13,10 +13,10 @@ export function AppFooter() {
                     <div className="footer-logo"></div>
                     <small></small>
                     <ul className="footer-list clean-list">
-                        Footer
+                        Footersssssssssssssssssss
                         {/* <li><FacebookIcon></FacebookIcon></li>
                         <li><InstagramIcon></InstagramIcon></li>
-                        <li><TwitterIcon></TwitterIcon></li> */}sssssssssssssssssss
+                        <li><TwitterIcon></TwitterIcon></li> */}
                     </ul>
                 </nav>
             </footer>
