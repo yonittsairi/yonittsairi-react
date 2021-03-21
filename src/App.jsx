@@ -4,6 +4,7 @@ import { AppHeader } from './cmps/AppHeader.jsx'
 
 import { AppFooter } from './cmps/AppFooter.jsx'
 import './assets/scss/main.scss';
+import { EventiApp } from './pages/EventiApp.jsx';
 
 
 
@@ -11,9 +12,10 @@ export class App extends Component {
     render() {
         return (<React.Fragment>
             <AppHeader />
-            <Switch>
+            <EventiApp />
+            {/* <Switch>
 
-            </Switch>
+            </Switch> */}
             <AppFooter />
         </React.Fragment>
         )

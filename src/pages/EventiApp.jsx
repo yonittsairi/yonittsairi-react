@@ -1,13 +1,12 @@
 import { Component } from 'react'
 import { connect } from 'react-redux'
-import { EventiList } from './EventiList.jsx'
+
 import { loadEventis } from '../store/action/eventiActions.js'
-import { EventiFilter } from '../cmps/EventiFilter.jsx'
 
 export class _EventiApp extends Component {
 
     componentDidMount() {
-        this.props.loadEventis(this.props.filterBy)
+        this.props.loadEventis({})
         console.log('Got from store:', this.props);
     }
 
@@ -28,10 +27,7 @@ export class _EventiApp extends Component {
     // }
 
     render() {
-        const { eventies } = this.props
-        return (< EventiList eventies={eventies} />
-
-        )
+        return <h1>ll</h1>
     }
 }
 
