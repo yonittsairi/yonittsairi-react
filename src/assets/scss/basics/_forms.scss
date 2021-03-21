@@ -1,0 +1,33 @@
+button {
+    border: 0;
+    background-color: rgb(0, 102, 255);
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+form > * {
+    display: block;
+    width: 200px;
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+input,
+select,
+textarea {
+    background-color: unset;
+    border: none;
+    max-height: 400px;
+    min-height: 40px;
+    min-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+textarea {
+    min-height: 350px;
+}

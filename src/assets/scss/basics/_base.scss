@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#root {
+    height: 100vh;
+}
+::selection {
+    background-color: $clr1;
+    color: $clr6;
+}
+
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: $clr2;
+    height: 100vh;
+}
+
+body {
+    font-size: rem(18px);
+    margin: 0 auto;
+    background-color: rgb(251, 251, 251);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0 0.6em;
+    line-height: 1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+// main,
+// footer {
+//     padding: 5px;
+// }
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+npm a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+.like,
+.star {
+    color: rgb(250, 15, 93);
+}
