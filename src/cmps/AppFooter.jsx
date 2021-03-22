@@ -6,21 +6,21 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 export function AppFooter() {
 
     return (
-        <section>
-            <footer className="main-footer flex justify-center ">
-                <nav>
-                    {/* <img className="app-logo" src="../assets/imgs"></img> */}
-                    <div className="footer-logo"></div>
-                    <small></small>
-                    <ul className="footer-list clean-list">
-                        Footersssssssssssssssssss
+
+        <footer className="full main-footer">
+            <nav>
+                {/* <img className="app-logo" src="../assets/imgs"></img> */}
+                <div className="footer-logo"></div>
+                <small></small>
+                <ul className="footer-list clean-list">
+                    Footersssssssssssssssssss
                         {/* <li><FacebookIcon></FacebookIcon></li>
                         <li><InstagramIcon></InstagramIcon></li>
                         <li><TwitterIcon></TwitterIcon></li> */}
-                    </ul>
-                </nav>
-            </footer>
-        </section>
+                </ul>
+            </nav>
+        </footer>
+
     )
 }
 

@@ -1,5 +1,16 @@
-
 @font-face {
-    font-family: kufam-italc;
-    src: url(../../fonts/Kufam/Kufam-MediumItalic.ttf);
+    font-family: "Spartan-Bold";
+    src: url("../../fonts/Spartan-Bold.ttf");
+}
+@font-face {
+    font-family: "Spartan-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Spartan-Bold"), url("../../fonts/Spartan-Bold.ttf") format("woff");
+}
+@font-face {
+    font-family: "Spartan-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Spartan-Regular"), url("../../fonts/Spartan-Regular.ttf") format("woff");
 }

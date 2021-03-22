@@ -2,6 +2,7 @@ import { Component } from 'react'
 import { connect } from 'react-redux'
 
 import { loadEventis } from '../store/action/eventiActions.js'
+import { List } from './List';
 
 export class _EventiApp extends Component {
 
@@ -10,24 +11,9 @@ export class _EventiApp extends Component {
         console.log('Got from store:', this.props);
     }
 
-    // onRemove = (eventiId) => {
-    //     this.props.removeEventi(eventiId)
-
-    // }
-
-    // onSetFilter = (filterBy) => {
-    //     this.props.setFilter(filterBy)
-    //     this.props.loadEventis(filterBy)
-
-    // }
-
-    // doLogout = async () => {
-    //     await this.props.logout()
-    //     this.setState({ loggedInUser: null }, () => this.props.history.push('/'))
-    // }
-
     render() {
-        return <h1>ll</h1>
+        return <div className="flex column ">
+            <List cycles={this.props.eventies} /></div>
     }
 }
 

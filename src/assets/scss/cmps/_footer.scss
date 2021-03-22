@@ -1,12 +1,12 @@
 .main-footer {
-    background-color: #f6eaea;
-    width: 100%;
-    text-align: center;
-    padding: 5px 0 25px;
-    bottom: 0;
-    position: absolute;
-
-    grid-column: 1/-1;
+    // background-color: #f62d2d;
+    // width: 100%;
+    // text-align: center;
+    // padding: 5px 0 25px;
+    // bottom: 0;
+    // position: absolute;
+    // height: 40px;
+    grid-row: -1;
     .footer-logo {
         font-size: rem(28px);
     }

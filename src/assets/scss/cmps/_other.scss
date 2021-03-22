@@ -1,0 +1,143 @@
+.hero {
+    height: 100vh;
+    background-image: url("../../../assets/img/homepage/hero-bg-desktop.jpg");
+    grid-column: 1/-1;
+    // grid-row: 1/2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loacl {
+    position: absolute;
+    z-index: 4;
+    margin-top: 300px;
+    width: 400px;
+    box-shadow: 10px 10px 10px 10px rgb(219, 219, 231);
+}
+.card {
+    // width: 30%;
+    height: 112px;
+    background-image: url("../../../assets/img/patterns/pattern-divide.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 30px;
+    img {
+        width: 90%;
+        object-fit: cover;
+    }
+}
+.order {
+    background-image: url("../../../assets/img/homepage/ready-bg-desktop.jpg");
+    grid-column: 1/-1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.adds {
+    height: 900px;
+    background-color: white;
+    color: black;
+}
+.prev {
+    // margin-top: 100px;
+}
+.cards {
+    // height: 1400px;
+    background-color: black;
+
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        line-height: 2;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+hr {
+    width: 100%;
+    height: 0.7px;
+    background-color: white;
+}
+.desc {
+    padding-right: 280px;
+}
+.title {
+    background-image: url("../../../assets/img/patterns/pattern-divide.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-y: 20%;
+    background-position-x: 11%;
+}
+
+footer {
+    background-color: black;
+    grid-column: 1/-1;
+}
+.slider {
+    height: 800px;
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .hero {
+        height: 100vh;
+        background-image: url("../../../assets/img/homepage/ready-bg-mobile.jpg");
+    }
+    .cards {
+        flex-direction: column;
+        padding: 0;
+    }
+    .card {
+        margin: 0;
+        width: 100%;
+        background-image: none;
+        img {
+            width: 100%;
+        }
+    }
+    .main-container {
+        section {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .prev {
+        flex-direction: column;
+        min-height: 400px;
+        > * {
+            height: 100%;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+    .title {
+        background-position-y: 1%;
+        background-position-x: 50%;
+    }
+    .desc {
+        padding: 0;
+        > * {
+            text-align: center;
+        }
+    }
+    .loacl,
+    .loacl2 {
+        display: block;
+        position: static;
+        margin-top: 40px;
+        position: unset;
+        width: 200px;
+        box-shadow: none;
+    }
+}
